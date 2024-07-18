@@ -23,5 +23,11 @@ public class App {
          * Bir metodun bir arayüzü olur ama birden fazla implementation'a sahip
          * olabilir.
          */
+
+        // BINDING
+        /*
+         * Bizim gördüğümüz şeyi compilerda görür (statik bağlama). Biz göremiyorsak o
+         * da göremez (dinamik bağlama).
+         */
     }
 }
