@@ -1,0 +1,2 @@
+Daha önce birlikte çalışan iki yapıdan birisinin değişmesine rağmen, yeni sürümünün diğer yapıyla hala uyumlu bir şekilde çalışabilmesine denir. 
+.class seviyesindedir.
