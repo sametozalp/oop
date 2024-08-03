@@ -1,0 +1,1 @@
+Error sınıfından bir hata meydana gelirse yakalamak mümkün değildir.
