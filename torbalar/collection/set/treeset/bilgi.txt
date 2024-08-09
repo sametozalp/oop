@@ -1,0 +1,9 @@
+Elemanlarını sıralı olarak tutan başka bir Set gerçekleştirmesidir.
+
+Hem NavigableSet hem de SortedSet'tir.
+
+Temel fonksiyonlarda (add, remove, contains), O(logn) bir performans sağlar. (HashSet'e göre yavaş)
+
+NavigableSet; şunun altında ne var, en üstteki eleman, en alttaki eleman gibi sorguları yapabilmemizi sağlar.
+
+!! TreeSet'e vereceğimiz obje comparable olmak zorundadır yoksa ClassCastException fırlatır.

@@ -1,0 +1,6 @@
+Iterable arayüzde elemanları sırayla alabilme durumu vardı. Şimdi ise List'ler ListIterator gelmiş durumda. 
+Bu metotlar arasında ise artık bir yön kavramı olduğu için önceki, sonraki gibi metotları çağırabiliyoruz.
+
+of() metotlar Set'tekiler gibi çalışır. İçeriği değiştirilemez.
+
+sort() fonksiyonu ile sıralama yapabiliriz ama içerisine bir comparator vermeliyiz.

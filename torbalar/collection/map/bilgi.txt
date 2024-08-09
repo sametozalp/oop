@@ -1,0 +1,15 @@
+put() metodunu kullanırken verdiğin key değeri mapte mevcutsa sana eski değeri döndürür, değilse null değer döndürür.
+Bu fonksiyon varsa değiştirir yoksa ekler.
+
+Mapte anahtar yoksa ve değeri ile birlikte eklenilmesi isteniyorsa putIfAbsent() kullanılır. 
+Ekleyeceğimiz key zaten mevcutsa var olanı değiştirmez.
+
+Bir mapte key verdik ve value değerini istedik. Eğer value değeri yoksa ve biz bunun yerine varsayılan bir değer
+dönsün istiyorsak getOrDefault(K, V) fonksiyonunu kullanırız.
+
+Mapteki tüm anahtarları keySet() ile alabiliriz (Set<K> tipinde).
+Değerleri de values olarak alabiliriz (Collection<T> tipinde).
+
+Anahtar değer ikilisini almak istersek entrySet() fonksiyonunu kullanırız (Set<Map.Entry<K, V>> tipinde).
+
+

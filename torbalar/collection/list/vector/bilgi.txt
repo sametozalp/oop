@@ -1,0 +1,4 @@
+Arraylist ya da Linkedlist'ten farkı tüm metodları synchronized'dır. Bu yüzden pek sık kullanılmaz.
+Multithread yapılar için daha uygundur. Aslında multithread için de kullanmaya gerek yok çünkü arraylist ve linkedlistleri de synchronized hale getirebiliriz.
+
+Stack'de bir cins vectordur.

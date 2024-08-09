@@ -1,0 +1,6 @@
+İnterfacedir.
+
+Collection üzerinde iterator() metodunu ile iterator nesnesini alıp hasnext() ile kontrol edip sonraki elemana (DÜZELTME: SONRAKİ YOKTUR.. BİR DİĞER ELEMAN VARDIR.) next() metodu ile ulaşırız.
+
+Collection üzerinde çalışırken iterator interfacei içindeki remove'u kullanabiliriz ama Collection üzerindeki remove'u kullanamayız, hata verir.
+

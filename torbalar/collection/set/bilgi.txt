@@ -1,0 +1,9 @@
+İnterfacedir.
+
+Kümeleri temsile eder. Elemanlar tekildir. Dizilim yoktur.
+
+Collection arayüzünün add metodu her zaman true döndürürken Set arayüzü false dönsürebilir.
+
+Sadece bir tane null kullanır.
+
+Set "of" metodlarıyla nesne oluşturulursa remove gibi fonksiyonları kullanamayız. Değiştirilmez. Null eklenemez.

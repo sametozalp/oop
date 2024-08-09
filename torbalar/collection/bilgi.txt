@@ -1,0 +1,3 @@
+İnterfacedir.
+
+Şunu bunu ver diyemeyiz ama iterator metotları vardır.

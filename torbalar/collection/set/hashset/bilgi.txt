@@ -1,0 +1,22 @@
+Hashmap tarafından desteklenen Set gerçekleştirmesidir.
+
+Dizilim sözü vermez, var olan dizilim zaman içinde değişebilir.
+
+O(1), bir performans sağlar. (Temel fonksiyonlarda: add, remove, contains, size)
+Bu demektir ki bu işlemler sabite yakın bir performans sağlar. Yani hashset ne kadar büyürse büyüsün bu işlemleri hep aynı süre içerisinde yapar.
+
+Set olduğu için elemanlarına iterator ile erişilebilir.
+
+Hashset içerisine verilecek veri sayısı biliniyorsa başlangıç değeri verilip performans sağlanabilir.
+
+Kendi objelerimizi eklediğimizde Set'in amacına uygun (her objeden bir tane olması) kullanılabilmesi için kendi hashCode ve equals metotlarımızı override etmeliyiz.
+
+
+
+                    ****************** Hashing ve Hash Fonksiyonları ***************
+
+Hash fonksiyonları aynı girdi için aynı değeri, farklı girdi değeri için farklı bir değer üretmesi beklenir.
+
+hashCode() metodu, nesnenin bellekteki adresini kullanarak int bir değer üreten bir hash fonksiyonu kullanır. Tutarlılık açısından equals() ile çalışır.
+String, int gibi sınıfların hashCodeları varsayılan olarak aynıdır.
+

@@ -1,0 +1,6 @@
+Bir interfacedir. Sıralamayı amaçlar.
+
+Çağırdığımız obje önce gelirse 1, eşitse 0, bizimki önce gelirse -1 döner. 
+Karakterler üzerinde kullanırsak aralarında harf farkını döndürür.
+
+Comparable kendisiyle kıyaslar. Comparable ise içerisinde iki tane obje alır ikisini kıyaslar.

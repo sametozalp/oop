@@ -1,0 +1,16 @@
+Bu bir Deque, o da aynı zamanda queue olduğuu için getFirst(), peek(), push(), pull() gibi birçok fonksiyonu implement eder.
+Stack'de, son giren ilk çıkar. Queue'da ilk giren ilk çıkar.
+
+Her iki taraftaki komşu elemanının referasnını tutar.
+
+ERİŞİMDE;
+Arraylist O(1) performansa sahiptir.
+LinkedList O(n) performansa sahiptir.
+
+EKLEME VE ÇIKARMADA;
+Arraylist O(n) performansa sahiptir.
+LinkedList O(1) performansa sahiptir.
+
+Başa ya da araya ekleme çıkarma yapmayacaksak Arraylist terhic etmeliyiz.
+
+Arama yani contains() metodu hem Arraylist için hem LinkedList için de O(n)'dir.

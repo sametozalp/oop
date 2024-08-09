@@ -1,0 +1,4 @@
+Bir interfacedir.
+
+Comparable uygulayamıyorsak nasıl objeleri sıralarız ?
+Comparable kendisiyle kıyaslar. Comparable ise içerisinde iki tane obje alır ikisini kıyaslar.
